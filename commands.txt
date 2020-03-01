@@ -11,3 +11,14 @@ Git Remote Commands;
 # git remote -v
 # git push origin master
 # git pull origin master
+
+
+Branch Management;
+git status;
+git branch // shows the current branch we are on
+git checkout -b home_page // switched to a new branch homepage
+git add .
+git commit -m "Home Page"
+git push origin home_page
+git checkout master/homepage
+git checkout master => git merge home_page
